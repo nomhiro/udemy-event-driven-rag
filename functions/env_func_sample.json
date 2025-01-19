@@ -1,0 +1,52 @@
+[
+  {
+    "name": "AOAI_API_KEY",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AOAI_API_VERSION",
+    "value": "2024-10-21",
+    "slotSetting": false
+  },
+  {
+    "name": "AOAI_EMBEDDING_DEPLOYMENT",
+    "value": "text-embedding-3-large",
+    "slotSetting": false
+  },
+  {
+    "name": "AOAI_ENDPOINT",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "BLOB_CONNECTION",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_CONNECTION",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_CONTAINER_NAME",
+    "value": "doc-container",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_CREDENTIAL",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_DATABASE_NAME",
+    "value": "doc-db",
+    "slotSetting": false
+  },
+  {
+    "name": "COSMOS_URL",
+    "value": "",
+    "slotSetting": false
+  }
+]
