@@ -32,6 +32,7 @@ class CosmosService:
             items = self.container.query_items(
                 query=query,
                 enable_cross_partition_query=True
+                
             )
 
             return items

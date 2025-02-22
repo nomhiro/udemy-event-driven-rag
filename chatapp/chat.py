@@ -23,9 +23,6 @@ system_prompt_chat = """あなたはAIアシスタントです。問い合わせ
 aoai_service = AzureOpenAIService()
 cosmos_service = CosmosService()
 
-# seed message
-seed_message = {"role": "system", "content": system_prompt_chat}
-
 # SESSION MANAGEMENT
 if "chat_messages" not in st.session_state:
     st.session_state["chat_messages"] = []

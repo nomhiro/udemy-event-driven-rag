@@ -18,7 +18,7 @@ aeg-event-type: Notification
     "contentType": "application/pdf", 
     "contentLength": 2381873, 
     "blobType": "BlockBlob", 
-    "url": "https://sarageventdriven.blob.core.windows.net/rag-docs/（２）令和６年度の経済動向.md", 
+    "url": "https://saeventdrivendata001.blob.core.windows.net/rag-docs/２．令和７年度の経済財政運営の基本的態度.md", 
     "sequencer": "00000000000000000000000000012F09000000000003ceb0", 
     "storageDiagnostics": {
       "batchId": "5e7b9236-0006-004c-00df-ebd23d000000"
@@ -27,14 +27,14 @@ aeg-event-type: Notification
   "dataVersion": "1.0"
 }
 
-###
+### Delete
 POST http://localhost:7071/runtime/webhooks/EventGrid?functionName={{FUNCTION_NAME}}
 Content-Type: application/json
 aeg-event-type: Notification
 
 {
   "id": "1",
-  "eventType": "Microsoft.Storage.BlobCreated",
+  "eventType": "Microsoft.Storage.BlobDeleted",
   "subject": "/blobServices/default/containers/rag-docs/blobs/令和６年度の経済動向及び令和７年度の経済見通し.md", 
   "eventTime": "2024-08-11T17:02:19.6069787Z",
   "data": {
